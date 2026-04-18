@@ -1,0 +1,6 @@
+# Binários compilados
+*.o
+*.out
+*.exe
+timer
+
