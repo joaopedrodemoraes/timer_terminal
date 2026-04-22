@@ -15,7 +15,7 @@ gcc main.c -o timer
 Ao iniciar, digite o tempo desejado no formato `h:m:s`:
 
 ​```
-Digite o tempo desejado (Ex: 1:10:05): 0:0:30
+Digite o tempo desejado (Ex: 01:10:05): 0:0:30
  Tempo: 00:00:27
 ​```
 
