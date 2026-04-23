@@ -26,17 +26,16 @@ Digite o tempo desejado (Ex: 01:10:05): 0:0:30
 | `p`   | Pausar    |
 | `r`   | Retomar   |
 | `s`   | Reiniciar |
-| `q`   | Sair      |
+
 
 ## Roadmap
 
 - [x] Timer regressivo funcional no formato `hh:mm:ss`
 - [x] Atualização em tempo real na mesma linha
 - [ ] Controles de pausa, retomar e reinício
-- [ ] Tecla para sair sem `Ctrl+C`
-- [ ] Interface estilizada (cores, bordas, alinhamento)
+- [ ] Tecla para sair `Ctrl+C`
+- [ ] Interface estilizada ( bordas e alinhamento)
 - [ ] Alarme sonoro ao finalizar
-- [ ] Receber tempo via argumentos de linha de comando
 
 ## Tecnologias
 
