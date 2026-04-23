@@ -19,23 +19,13 @@ Digite o tempo desejado (Ex: 01:10:05): 0:0:30
  Tempo: 00:00:27
 ​```
 
-### Controles
-
-| Tecla | Ação      |
-|-------|-----------|
-| `p`   | Pausar    |
-| `r`   | Retomar   |
-| `s`   | Reiniciar |
-
-
 ## Roadmap
 
 - [x] Timer regressivo funcional no formato `hh:mm:ss`
 - [x] Atualização em tempo real na mesma linha
-- [ ] Controles de pausa, retomar e reinício
-- [ ] Tecla para sair `Ctrl+C`
+- [x] Alarme sonoro ao finalizar
 - [ ] Interface estilizada ( bordas e alinhamento)
-- [ ] Alarme sonoro ao finalizar
+
 
 ## Tecnologias
 
