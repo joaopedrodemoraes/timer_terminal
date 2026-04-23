@@ -7,7 +7,7 @@ int main () {
     int horas;
     int minutos;
     int segundos;
-    bool rodando = true;
+    
 
     printf("====================================\n");
     printf("Bem-vindo ao timer para terminal !!\n");
@@ -20,10 +20,8 @@ int main () {
 
     while (horas != 0 || minutos != 0 || segundos != 0)
     {   
-        //Tenho que ir decrementando os segundos em 1 até o segundos serem negativos;
-        //Esperar um segundo para decrementar 1s
-        //depois do decremento colocar na tela 
-        printf("\r Tempo: %02d:%02d:%02d", horas, minutos, segundos);
+
+        printf("\rTempo: %02d:%02d:%02d", horas, minutos, segundos);
         fflush(stdout);
         sleep(1);
         segundos--;
@@ -39,12 +37,11 @@ int main () {
             horas--;
 
         }
-        
-        
-        
+
 
     }
-    
+    printf("\nTempo Esgotado!\n");
+    system("paplay /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga");
 
     return 0;
 }
